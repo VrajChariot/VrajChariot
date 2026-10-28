@@ -1,24 +1,36 @@
-<h1 align="center">Hi 👋, I'm Vraj Shah</h1>
-<h3 align="center">A passionate full-stack developer who loves crafting digital experiences that make a difference. With expertise spanning modern web technologies, I specialize in building scalable applications that solve real-world problems. When I'm not coding, you'll find me exploring new technologies and contributing to open-source projects.</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/career-dark.svg">
+  <img src="assets/career-light.svg" width="100%" alt="Vraj Shah, full-stack and AI engineer in Berlin, building LLM agents for the power grid. Career drawn as a single-line diagram: Chariot Technologies, founder and developer, 2022 to 2024; Arden University, BSc (Hons) Computing, 2024 to 2027; 50Hertz Transmission, working student developer, since 2025.">
+</picture>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=vrajchariot&label=Profile%20views&color=0e75b6&style=flat" alt="vrajchariot" /> </p>
+### At 50Hertz
 
-- 🌱 I’m currently learning **Backend technologies and data flow between frontend and backend**
+50Hertz runs the high-voltage grid for northern and eastern Germany. In its digital unit, The Nest, I:
 
-- 👨‍💻 All of my projects are available at [https://vrajdev.vercel.app/](https://vrajdev.vercel.app/)
+- own four internal production systems end to end: an LLM agent for grid operations analysis, a forecasting tool that feeds regulatory reporting, a tender-analysis app, and a documentation system
+- build agents on Azure AI Foundry with tool calling, schema-validated structured output, retrieval over internal documents, and prompt-injection guardrails
+- designed the LLM evaluation pipeline that runs in CI and catches drops in agent output quality before they ship
 
-- 📫 How to reach me **vraj0410shah@gmail.com**
+Before Berlin, I founded Chariot Technologies in Vadodara and grew it into a revenue-generating, government-funded IoT business: sensors, microcontrollers, cloud services, remote device management.
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1yvqSQcVy1f7IBtf7w_dmS2eaZxK4yY4f/view](https://drive.google.com/file/d/1yvqSQcVy1f7IBtf7w_dmS2eaZxK4yY4f/view)
+### Things I've built
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://dev.to/https://vrajdev.vercel.app/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="https://vrajdev.vercel.app/" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/vrajshah04" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vrajshah04" height="30" width="40" /></a>
-</p>
+| Project | What it does | Built with |
+| :--- | :--- | :--- |
+| Ableton Copilot | MCP server that gives an LLM 25 tools inside Ableton Live: MIDI clips, devices, instruments, arrangement. Tool calls travel as JSON over TCP to a Remote Script running in Live's own Python. Freelance client project. | Python, MCP, uv |
+| [SkillBridge AI](https://github.com/VrajChariot/SkillBridge-AI) | Scores a resume against a job description and writes a structured ATS report. [Try it live](https://skillbridge-ai-livid.vercel.app). | TypeScript, Gemini |
+| [Builda](https://github.com/VrajChariot/Builda) | Voice agent you talk to. It searches the web, streams speech back, and builds or edits web apps through function calls. | Python, WebSockets |
+| [GlobalGram](https://github.com/VrajChariot/GlobalGram) | A holographic globe over your webcam feed. Pinch to spin, spread two hands to zoom. Hand tracking runs on-device in a Web Worker. | React Three Fiber, MediaPipe |
+| [Tool-calling loop](https://github.com/VrajChariot/Tool-Calling-loop) | A tool-calling loop written by hand, without SDK automation, so every step is visible. It answers questions about substations. | Python, Gemini |
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+### What I work with
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=vrajchariot&show_icons=true&locale=en&layout=compact" alt="vrajchariot" /></p>
+<table>
+  <tr><td>AI</td><td>Azure OpenAI, Gemini, agent orchestration, tool calling, RAG, structured output, evals, guardrails</td></tr>
+  <tr><td>Backend</td><td>Python, FastAPI, Node.js, Express, REST, WebSockets</td></tr>
+  <tr><td>Frontend</td><td>React, TypeScript, Tailwind</td></tr>
+  <tr><td>Data</td><td>PostgreSQL, MySQL, MongoDB, SQLAlchemy</td></tr>
+  <tr><td>Ship</td><td>Azure AI Foundry, Azure DevOps, Docker, pytest, Vitest, CI pipelines</td></tr>
+</table>
 
+I speak English, Hindi, and Gujarati, and my German is improving. Write to me at [vraj0410shah@gmail.com](mailto:vraj0410shah@gmail.com), find me on [LinkedIn](https://www.linkedin.com/in/vrajshah04/), or read my [résumé](https://drive.google.com/file/d/1yvqSQcVy1f7IBtf7w_dmS2eaZxK4yY4f/view) and [portfolio](https://vrajdev.vercel.app/).
